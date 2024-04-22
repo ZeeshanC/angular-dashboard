@@ -1,0 +1,17 @@
+.chart-canvas {
+  max-width: 300px; /* Limit width */
+  max-height: 65px; /* Limit height */
+  width: 100%; /* Fill parent container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.circle-chart {
+	background: white;
+	text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+	height: 140px;
+}

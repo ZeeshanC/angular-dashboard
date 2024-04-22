@@ -1,0 +1,11 @@
+<div class="dashboard">
+	<app-month-filter [selectedMonth]="selectedMonth" (monthSelected)="onMonthFilterChange($event)"></app-month-filter>
+	<div class="top">
+		<app-top-boxes></app-top-boxes>
+		<app-circle-chart></app-circle-chart>
+	</div>
+	<div class="below">
+		<app-bubble-chart></app-bubble-chart>
+		<app-bar-chart></app-bar-chart>
+	</div>
+</div>

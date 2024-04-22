@@ -1,0 +1,20 @@
+<div class="top-boxes">
+  <div class="box">
+    <h3>New Wins</h3>
+    <p>{{ newWins }}</p>
+    <p class="per">{{ newWinsChange }}%</p>
+		<p>from previous 30 days</p>
+  </div>
+  <div class="box">
+    <h3>Trail: Win rate</h3>
+    <p>{{ winRate }}%</p>
+    <p class="per">{{ winRateChange }}% </p>
+		<p>from previous 30 days</p>
+  </div>
+  <div class="box">
+    <h3>New MRR</h3>
+    <p>{{ newMRR | currency }}</p>
+    <p class="per">{{ newMRRChange }}%</p>
+		<p>from previous 30 days</p>
+  </div>
+</div>

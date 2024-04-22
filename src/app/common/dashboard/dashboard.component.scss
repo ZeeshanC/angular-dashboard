@@ -1,0 +1,18 @@
+.dashboard {
+	background-color: lightgray;
+}
+.top {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	::ng-deep {
+		app-circle-chart {
+			// width: 100%;
+		}
+	}
+}
+
+.below {
+	display: flex;
+	justify-content: space-around;
+}

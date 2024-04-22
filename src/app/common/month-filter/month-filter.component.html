@@ -1,0 +1,7 @@
+<div class="month-filter">
+  <select [(ngModel)]="selectedMonth" (change)="onSelectChange($event)">
+    <option value="This Month" selected>This Month</option>
+    <option value="Last Month">Last Month</option>
+    <option value="Next Month">Next Month</option>
+  </select>
+</div>
